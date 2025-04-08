@@ -1,0 +1,6 @@
+const menu = {
+    list() {
+        return [{"backMenu":[{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"用户","menuJump":"列表","tableName":"yonghu"}],"menu":"用户管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"货物信息","menuJump":"列表","tableName":"huowuxinxi"}],"menu":"货物信息管理"},{"child":[{"buttons":["新增","查看","修改","删除"],"menu":"货物类型","menuJump":"列表","tableName":"huowuleixing"}],"menu":"货物类型管理"},{"child":[{"buttons":["查看","修改","删除","审核","报表"],"menu":"货物入库","menuJump":"列表","tableName":"huowuruku"}],"menu":"货物入库管理"},{"child":[{"buttons":["查看","修改","删除","审核","报表"],"menu":"货物出货","menuJump":"列表","tableName":"huowuchuhuo"}],"menu":"货物出货管理"}],"frontMenu":[],"hasBackLogin":"是","hasBackRegister":"否","hasFrontLogin":"否","hasFrontRegister":"否","roleName":"管理员","tableName":"users"},{"backMenu":[{"child":[{"buttons":["查看","入库","出货"],"menu":"货物信息","menuJump":"列表","tableName":"huowuxinxi"}],"menu":"货物信息管理"},{"child":[{"buttons":["查看","修改","删除"],"menu":"货物入库","menuJump":"列表","tableName":"huowuruku"}],"menu":"货物入库管理"},{"child":[{"buttons":["查看","修改","删除"],"menu":"货物出货","menuJump":"列表","tableName":"huowuchuhuo"}],"menu":"货物出货管理"}],"frontMenu":[],"hasBackLogin":"是","hasBackRegister":"否","hasFrontLogin":"是","hasFrontRegister":"是","roleName":"用户","tableName":"yonghu"}]
+    }
+}
+export default menu;
